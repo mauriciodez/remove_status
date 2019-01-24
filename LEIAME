@@ -1,0 +1,16 @@
+## Script para a correção do arquivo status.
+
+- V1.0 >>> 24 de Janeiro de 2019
+
+*** NOTA
+
+* Esse script é usado para limpar do arquivo status (/var/lib/dpkg/status) o intervalo do pacote defeituoso e reinstalar o pacote.
+
+* O script tem que ser executado como ROOT.
+
+* O script gera um arquivo de backup (/var/lib/dpkg/status.bkp)
+
+* Colaboração do amigos:
+
+- Hugo Cerqueira (https://www.vivaolinux.com.br/~hrcerq)
+- Marcelo Oliver (https://www.vivaolinux.com.br/~msoliver)
